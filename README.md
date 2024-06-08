@@ -1,9 +1,11 @@
 
-# Visão geral
+# Palestra EcoEncontros 2023
 
 Este repositório contém os slides da palestra ministrada no dia
-20/09/2023 no ciclo de palestra “Seminário dos alunos” promovido pela
-representação discente do PPG Ecologia e Evolução da UFG
+15/03/204 no ciclo de palestra
+[*EcoEncontros*](https://ecoencontros.ib.usp.br/) promovido por
+estudantes de mestrado e doutorado do PPG Ecologia da Universidade de
+São Paulo
 
 Na palestra intitulada “O quilo de Saint Cloud e os detentores do saber:
 uma historia sobre macroecologia do conhecimento”, mostro como se dá a
