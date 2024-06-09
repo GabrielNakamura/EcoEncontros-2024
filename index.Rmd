@@ -325,15 +325,32 @@ knitr::include_graphics(here::here("figs", "method-data2.png"))
 
 # O fluxo dos tipo no tempo e espaço
 
-
+.center[
 ```{r, echo=FALSE, eval=TRUE, out.width="50%"}
 knitr::include_graphics(here::here("figs", "WB-regions.png"))
 ```
+]
 
 --
 
 ```{r, echo=FALSE, eval=TRUE, out.width="100%"}
-knitr::include_graphics(here::here("figs", "fluxo-tipos.png"))
+knitr::include_graphics(here::here("figs", "flow-1.png"))
+```
+
+---
+
+# O fluxo dos tipo no tempo e espaço
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="50%"}
+knitr::include_graphics(here::here("figs", "WB-regions.png"))
+```
+]
+
+--
+
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "flow-2.png"))
 ```
 
 ---
@@ -370,45 +387,6 @@ knitr::include_graphics(here::here("figs", "MO-metric.png"))
 
 # A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
 
-.pull-left[
-```{r, echo=FALSE,eval=TRUE,out.width="100%", fig.retina=3}
-knitr::include_graphics(here::here("figs", "MO-metric.png"))
-```
-]
-
-.pull-right[
-- Países com maior **concentração total** de tipos primários (O acumulador)
-
-- Países com alta **taxa de manutenção** de tipos primários (O protetor)
-]
-
----
-
-# A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
-
-.pull-left[
-```{r, echo=FALSE,eval=TRUE,out.width="100%", fig.retina=3}
-knitr::include_graphics(here::here("figs", "CO-metric.png"))
-```
-]
-
-.pull-right[
-- Países com maior **concentração total** de tipos primários (O acumulador)
-
-- Países com alta **taxa de manutenção** de tipos primários (O protetor)
-
-- Países com alta **proporção de holótipos** amostrados no próprio país - contrário (**O Indiana Jones**)
-]
-
----
-
-# Quem é quem na fila do peixe
-
-.center[
-```{r, echo=FALSE, eval=TRUE, out.width="70%"}
-knitr::include_graphics(here::here("figs", "scheme-metrics0.png"))
-```
-]
 
 ---
 
@@ -454,26 +432,43 @@ knitr::include_graphics(here::here("figs", "scheme-metrics4.png"))
 
 # Quem é quem na fila do peixe
 
-
-```{r, echo=FALSE, eval=TRUE, out.width="90%"}
-knitr::include_graphics(here::here("figs", "metrics-all-regions.png"))
+.center[
+```{r, echo=FALSE,eval=TRUE,out.width="60%", fig.retina=3}
+knitr::include_graphics(here::here("figs", "scatterplot-scheme1.png"))
 ```
+]
 
 ---
 
 # Quem é quem na fila do peixe
 
-```{r, echo=FALSE, eval=TRUE, out.width="80%"}
-knitr::include_graphics(here::here("figs", "metrics-all-regions2.png"))
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "scatterplot-1.png"))
 ```
+]
+]
+
+--
+
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "scatterplot-2.png"))
+```
+]
+]
+---
+
+# A diversidade local é bem representada nos museus?
+
+???
+Aqui vai o esquema explicando o que se trata a análise
 
 ---
 
-# Quem é quem na fila do peixe
-
-```{r, echo=FALSE, eval=TRUE, out.width="90%"}
-knitr::include_graphics(here::here("figs", "metrics-all-regions3.png"))
-```
+# A diversidade local é bem representada nos museus?
 
 ---
 class: inverse, middle, center
