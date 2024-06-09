@@ -43,14 +43,16 @@ Comuna de Saint-Cloud na França
 class: middle
 
 .pull-left[
+.center[
 # Saint-Cloud
 
 ### /sɛ̃ klu/
 ]
+]
 
 .pull-right[
-```{r, eval=TRUE, echo=FALSE, out.width= "200%"}
-knitr::include_graphics(here::here("figs", "st-cloud.png"))
+```{r, eval=TRUE, echo=FALSE, out.width= "100%"}
+knitr::include_graphics(here::here("figs", "st-cloud2.png"))
 ```
 ]
 
@@ -470,23 +472,47 @@ Aqui vai o esquema explicando o que se trata a análise
 
 # A diversidade local é bem representada nos museus?
 
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "map-turnover-combine2.png"))
+```
+]
+]
+
+???
+Maps with beta diversity analysis
+---
+
+# O que explica a distribuição do conhecimento no mundo?
+## Número total de tipos
+
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "model-total-nbt.png"))
+```
+]
+]
+
+---
+
+# O que explica a distribuição do conhecimento no mundo?
+
+### Retenção, contribuição local e turnover
+
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="55%"}
+knitr::include_graphics(here::here("figs", "model-turnover-nbt.png"))
+```
+]
+]
+
 ---
 class: inverse, middle, center
 
 # Implicações: os detentores do saber
-
---
-
-```{r, echo=FALSE, eval=TRUE, out.width="75%"}
-knitr::include_graphics(here::here("figs", "holotipos-por-pais.png"))
-```
-
---
-
-```{r, echo=FALSE, eval=TRUE, out.width="75%"}
-knitr::include_graphics(here::here("figs", "tipos-por-pais.png"))
-```
-
 
 ---
 
@@ -627,7 +653,6 @@ class: inverse, middle, center
 ```{r, echo=FALSE, eval=TRUE}
 knitr::include_graphics(here::here("figs", "final-scheme2.png"))
 ```
-class: inverse, middle, center
 
 ---
 
@@ -640,6 +665,12 @@ knitr::include_graphics(here::here("figs", "omar-fernandez.png"))
 
 ```{r, echo=FALSE, eval=TRUE}
 knitr::include_graphics(here::here("figs", "lucy_ghilardi_eco.png"))
+```
+]
+
+.pull-right[
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "video-british-museum.png"))
 ```
 ]
 
@@ -664,6 +695,21 @@ class: inverse, middle, center
 ```{r, echo=FALSE, eval=TRUE}
 knitr::include_graphics(here::here("figs", "ubirajara-expo-cariri.jpeg"))
 ```
+
+---
+
+# (not so) Fun facts
+
+.pull.left[
+```{r, echo=FALSE, eval=TRUE, out.width="50%"}
+knitr::include_graphics(here::here("figs", "fun-facts-salminus.png"))
+```
+
+```{r, echo=FALSE, eval=TRUE, out.width="50%"}
+knitr::include_graphics(here::here("figs", "museum-paris.jpeg"))
+```
+
+]
 
 ---
 class: inverse, middle, center
