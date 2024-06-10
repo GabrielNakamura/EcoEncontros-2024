@@ -232,10 +232,13 @@ knitr::include_graphics(here::here("figs", "campanha-ubirajara-2.jpeg"))
 
 --
 
+.center[
 .pull-right[
-```{r, echo=FALSE, eval=TRUE, out.width="80%"}
-knitr::include_graphics(here::here("figs", "NYT-British-Museum.png"))
+```{r, echo=FALSE, eval=TRUE, out.width="60%"}
+knitr::include_graphics(here::here("figs", "video-british-museum.png"))
+knitr::include_graphics(here::here("figs", "Benin-Bronze-Plaque.jpg"))
 ```
+]
 ]
 
 ---
@@ -253,7 +256,7 @@ knitr::include_graphics(here::here("figs", "paper-cisneros.png"))
 ---
 class: inverse, middle, center
 
-# Onde estão os holótipos (das espécies atuais)?
+## Onde estão os holótipos (das espécies atuais)?
 
 --
 
@@ -262,7 +265,7 @@ class: inverse, middle, center
 
 --
 
-## Um estudo sobre **Acumulo do Conhecimento** no tempo e espaço
+# Um estudo sobre **distribuição do conhecimento biológico fundamental** no tempo e espaço
 
 ---
 
@@ -319,16 +322,16 @@ knitr::include_graphics(here::here("figs", "method-data2.png"))
 
 - Mais de **26 mil** espécies válidas de **peixes de água doce**
 
-- Avaliação no tempo 
+- Caracterização da distribuição no **tempo** e **espaço**
 
 ]
 
 ---
 
-# O fluxo dos tipo no tempo e espaço
+# O fluxo dos tipos no tempo e espaço
 
 .center[
-```{r, echo=FALSE, eval=TRUE, out.width="50%"}
+```{r, echo=FALSE, eval=TRUE, out.width="60%"}
 knitr::include_graphics(here::here("figs", "WB-regions.png"))
 ```
 ]
@@ -341,10 +344,10 @@ knitr::include_graphics(here::here("figs", "flow-1.png"))
 
 ---
 
-# O fluxo dos tipo no tempo e espaço
+# O fluxo dos tipos no tempo e espaço
 
 .center[
-```{r, echo=FALSE, eval=TRUE, out.width="50%"}
+```{r, echo=FALSE, eval=TRUE, out.width="60%"}
 knitr::include_graphics(here::here("figs", "WB-regions.png"))
 ```
 ]
@@ -375,14 +378,14 @@ knitr::include_graphics(here::here("figs", "CT-metric.png"))
 
 .pull-left[
 ```{r, echo=FALSE,eval=TRUE,out.width="100%", fig.retina=3}
-knitr::include_graphics(here::here("figs", "MO-metric.png"))
+knitr::include_graphics(here::here("figs", "scheme-DC.png"))
 ```
 ]
 
 .pull-right[
-- Países com maior **concentração total** de tipos primários (O acumulador)
+- Regiões com maior **concentração total** de tipos primários (O acumulador)
 
-- Países com alta **taxa de manutenção** de tipos primários (O protetor)
+- Regiões com alta **taxa de contribuição local** de tipos primários (O recebedor)
 ]
 
 ---
@@ -390,44 +393,19 @@ knitr::include_graphics(here::here("figs", "MO-metric.png"))
 # A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
 
 
----
-
-# Quem é quem na fila do peixe
-
-.center[
-```{r, echo=FALSE, eval=TRUE, out.width="70%"}
-knitr::include_graphics(here::here("figs", "scheme-metrics.png"))
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%", fig.retina=3}
+knitr::include_graphics(here::here("figs", "scheme-DR.png"))
 ```
 ]
 
----
+.pull-right[
+- Regiões com maior **concentração total** de tipos primários (O acumulador)
 
-# Quem é quem na fila do peixe
+- Regiões com alta/baixa **taxa de contribuição local** de tipos primários (O recebedor)
 
-.center[
-```{r, echo=FALSE, eval=TRUE, out.width="70%"}
-knitr::include_graphics(here::here("figs", "scheme-metrics2.png"))
-```
-]
+- Regiões com alta/baixa **taxa de retenção** de tipos primários (O protetor)
 
----
-
-# Quem é quem na fila do peixe
-
-.center[
-```{r, echo=FALSE, eval=TRUE, out.width="70%"}
-knitr::include_graphics(here::here("figs", "scheme-metrics3.png"))
-```
-]
-
----
-
-# Quem é quem na fila do peixe
-
-.center[
-```{r, echo=FALSE, eval=TRUE, out.height="50%", out.width="70%"}
-knitr::include_graphics(here::here("figs", "scheme-metrics4.png"))
-```
 ]
 
 ---
@@ -436,7 +414,7 @@ knitr::include_graphics(here::here("figs", "scheme-metrics4.png"))
 
 .center[
 ```{r, echo=FALSE,eval=TRUE,out.width="60%", fig.retina=3}
-knitr::include_graphics(here::here("figs", "scatterplot-scheme1.png"))
+knitr::include_graphics(here::here("figs", "scheme-DR-DC.png"))
 ```
 ]
 
@@ -465,8 +443,23 @@ knitr::include_graphics(here::here("figs", "scatterplot-2.png"))
 
 # A diversidade local é bem representada nos museus?
 
+
+
+
 ???
 Aqui vai o esquema explicando o que se trata a análise
+
+---
+
+# A diversidade local é bem representada nos museus?
+
+.middle[
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "map-turnover1.png"))
+```
+]
+]
 
 ---
 
@@ -527,15 +520,12 @@ knitr::include_graphics(here::here("figs", "nagoya-protocol.png"))
 --
 
 .pull-right[
-```{r, echo=FALSE, eval=TRUE, out.width="90%"}
-knitr::include_graphics(here::here("figs", "lucy-souza-oeco.png"))
-```
 
 ```{r, echo=FALSE, eval=TRUE, out.width="100%"}
 knitr::include_graphics(here::here("figs", "decreto-1990.png"))
 ```
 
-```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
 knitr::include_graphics(here::here("figs", "omar-fernandez.png"))
 ```
 
