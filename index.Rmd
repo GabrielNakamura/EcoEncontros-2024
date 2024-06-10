@@ -443,8 +443,11 @@ knitr::include_graphics(here::here("figs", "scatterplot-2.png"))
 
 # A diversidade local é bem representada nos museus?
 
-
-
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="23%"}
+knitr::include_graphics(here::here("figs", "scheme-turnover-native.png"))
+```
+]
 
 ???
 Aqui vai o esquema explicando o que se trata a análise
@@ -453,10 +456,20 @@ Aqui vai o esquema explicando o que se trata a análise
 
 # A diversidade local é bem representada nos museus?
 
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="53%"}
+knitr::include_graphics(here::here("figs", "scheme-turnover-all.png"))
+```
+]
+
+---
+
+# A diversidade local é bem representada nos museus?
+
 .middle[
 .center[
 ```{r, echo=FALSE, eval=TRUE, out.width="100%"}
-knitr::include_graphics(here::here("figs", "map-turnover1.png"))
+knitr::include_graphics(here::here("figs", "turnover-native-types.png"))
 ```
 ]
 ]
@@ -507,6 +520,16 @@ class: inverse, middle, center
 
 # Implicações: os detentores do saber
 
+---
+
+# Acúmulo desigual do conhecimento biológico
+
+
+
+
+???
+
+Amarrar com a ideia do quilo 
 ---
 
 # Ética e legalidade
@@ -664,27 +687,9 @@ knitr::include_graphics(here::here("figs", "video-british-museum.png"))
 ```
 ]
 
---
-
-.pull-right[
-```{r, echo=FALSE, eval=TRUE, out.width="60%"}
-knitr::include_graphics(here::here("figs", "dictionary-lost-words.jpg"))
-```
-
-> “At the end of the day there’s no proof I’ve been here at all."
-
-]
-
 ???
 
 Se encaixa muito bem com a ideia do conhecimento extraviado ou enviado para longe da sua origem, que depois de tanto tempo em outro lugar a gente nem mesmo lembra que foi parte do nosso ambiente. E isso fica mais potente ainda se a gente pensar que vivemos numa época de extinções acelaradas... se tudo continuar como está talvez daqui um tempo a gente nem mesmo lembre das espécies que um dia tivemos aqui
-
----
-class: inverse, middle, center
-
-```{r, echo=FALSE, eval=TRUE}
-knitr::include_graphics(here::here("figs", "ubirajara-expo-cariri.jpeg"))
-```
 
 ---
 
