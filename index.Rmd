@@ -522,16 +522,6 @@ class: inverse, middle, center
 
 ---
 
-# Acúmulo desigual do conhecimento biológico
-
-
-
-
-???
-
-Amarrar com a ideia do quilo 
----
-
 # Ética e legalidade
 
 .pull-left[
@@ -612,6 +602,9 @@ knitr::include_graphics(here::here("figs", "diniz-filho-fig1.png"))
 class: inverse, middle, center
 
 # O que fazer?
+
+--
+
 
 ---
 
