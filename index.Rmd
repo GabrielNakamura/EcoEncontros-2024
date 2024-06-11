@@ -532,15 +532,22 @@ knitr::include_graphics(here::here("figs", "nagoya-protocol.png"))
 
 --
 
+.center[
 .pull-right[
+
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "omar-fernandez.png"))
+```
 
 ```{r, echo=FALSE, eval=TRUE, out.width="100%"}
 knitr::include_graphics(here::here("figs", "decreto-1990.png"))
 ```
 
 ```{r, echo=FALSE, eval=TRUE, out.width="100%"}
-knitr::include_graphics(here::here("figs", "omar-fernandez.png"))
+knitr::include_graphics(here::here("figs", "flow-2.png"))
 ```
+
+]
 
 ]
 
@@ -619,6 +626,8 @@ knitr::include_graphics(here::here("figs", "herbario-virtual.png"))
 ]
 
 --
+
+.middle[
 .rigth[
 .pull-right[
 ```{r, echo=FALSE, eval=TRUE, out.width="70%"}
@@ -630,6 +639,8 @@ knitr::include_graphics(here::here("figs", "decreto-1990.png"))
 ```
 
 ]
+]
+
 ]
 
 ---
@@ -709,10 +720,19 @@ class: inverse, middle, center
 
 José Alexandre Diniz-Filho | Livia Frateles | Bruno Mioto
 
-INCT Ecologia, Evolução e Conservação da Biodiversidade
 
-UEM-PPG Ecologia de Ambientes Aquáticos Continentais
+Manoela Marinho
 
+Emanuel Neuhaus
 
+Matheus Lima
+
+Aline Richter
+
+Wefferson Graça
+
+Tiago Freitas
+
+Bruno Eleres
 
 
