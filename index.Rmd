@@ -363,20 +363,6 @@ knitr::include_graphics(here::here("figs", "flow-2.png"))
 # A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
 
 .pull-left[
-```{r, echo=FALSE,eval=TRUE,out.width="100%",fig.retina=3}
-knitr::include_graphics(here::here("figs", "CT-metric.png"))
-```
-]
-
-.pull-right[
-- Países com maior **concentração total** de tipos primários (O acumulador)
-]
-
----
-
-# A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
-
-.pull-left[
 ```{r, echo=FALSE,eval=TRUE,out.width="100%", fig.retina=3}
 knitr::include_graphics(here::here("figs", "scheme-DC.png"))
 ```
@@ -441,7 +427,7 @@ knitr::include_graphics(here::here("figs", "scatterplot-2.png"))
 ]
 ---
 
-# A diversidade local é bem representada nos museus?
+# A diversidade local é bem representada nos museus? Turnover nativo e tipos
 
 .center[
 ```{r, echo=FALSE, eval=TRUE, out.width="23%"}
@@ -595,7 +581,7 @@ knitr::include_graphics(here::here("figs", "diniz-filhoetal-frontiers.png"))
 --
 
 .pull-right[
-```{r, echo=FALSE,eval=TRUE}
+```{r, echo=FALSE,eval=TRUE, out.width="100%"}
 knitr::include_graphics(here::here("figs", "diniz-filho-fig1.png"))
 ```
 
@@ -611,6 +597,18 @@ class: inverse, middle, center
 # O que fazer?
 
 --
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "new-kg.png"))
+```
+]
+
+.pull-right[
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "chapman-science.png"))
+```
+]
 
 
 ---
@@ -644,9 +642,22 @@ knitr::include_graphics(here::here("figs", "decreto-1990.png"))
 ]
 
 ---
+
+# Algumas iniciativas
+
+### Repatriações
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "ubirajara-expo-cariri.jpeg"))
+```
+]
+
+
+---
 class: inverse, middle, center
 
-# Macroecologia do conhecimento
+# Acumulo do conhecimento
 
 --
 
@@ -656,7 +667,7 @@ class: inverse, middle, center
 ---
 class: inverse, middle, center
 
-# Macroecologia do conhecimento **e** processo científico
+# Acumulo do conhecimento **e** processo científico
 
 ```{r, echo=FALSE, eval=TRUE}
 knitr::include_graphics(here::here("figs", "final-scheme1.png"))
@@ -665,7 +676,7 @@ knitr::include_graphics(here::here("figs", "final-scheme1.png"))
 ---
 class: inverse, middle, center
 
-# Macroecologia do conhecimento **e** processo científico
+# Acumulo do conhecimento **e** processo científico
 
 ```{r, echo=FALSE, eval=TRUE}
 knitr::include_graphics(here::here("figs", "final-scheme2.png"))
@@ -673,27 +684,30 @@ knitr::include_graphics(here::here("figs", "final-scheme2.png"))
 
 ---
 
-#Leituras
+class: inverse, middle, center
 
-.pull-left[
-```{r, echo=FALSE, eval=TRUE}
-knitr::include_graphics(here::here("figs", "omar-fernandez.png"))
-```
+## Colaboradores
 
-```{r, echo=FALSE, eval=TRUE}
-knitr::include_graphics(here::here("figs", "lucy_ghilardi_eco.png"))
-```
-]
+<img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2530919A5" width="100px"/>
+<img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
 
-.pull-right[
-```{r, echo=FALSE, eval=TRUE}
-knitr::include_graphics(here::here("figs", "video-british-museum.png"))
-```
-]
+José Alexandre Diniz-Filho | Livia Frateles | Bruno Mioto
 
-???
+Manoela Marinho
 
-Se encaixa muito bem com a ideia do conhecimento extraviado ou enviado para longe da sua origem, que depois de tanto tempo em outro lugar a gente nem mesmo lembra que foi parte do nosso ambiente. E isso fica mais potente ainda se a gente pensar que vivemos numa época de extinções acelaradas... se tudo continuar como está talvez daqui um tempo a gente nem mesmo lembre das espécies que um dia tivemos aqui
+Emanuel Neuhaus
+
+Matheus Lima
+
+Aline Richter
+
+Wefferson Graça
+
+Tiago Freitas
+
+Bruno Eleres
+
+Liuyoung Ding
 
 ---
 
@@ -709,30 +723,5 @@ knitr::include_graphics(here::here("figs", "museum-paris.jpeg"))
 ```
 
 ]
-
----
-class: inverse, middle, center
-
-## Colaboradores
-
-<img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2530919A5" width="100px"/>
-<img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
-
-José Alexandre Diniz-Filho | Livia Frateles | Bruno Mioto
-
-
-Manoela Marinho
-
-Emanuel Neuhaus
-
-Matheus Lima
-
-Aline Richter
-
-Wefferson Graça
-
-Tiago Freitas
-
-Bruno Eleres
 
 
