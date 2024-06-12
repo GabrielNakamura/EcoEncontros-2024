@@ -411,7 +411,7 @@ knitr::include_graphics(here::here("figs", "scheme-DR.png"))
 
 .center[
 ```{r, echo=FALSE,eval=TRUE,out.width="60%", fig.retina=3}
-knitr::include_graphics(here::here("figs", "scheme-DR-DC.png"))
+knitr::include_graphics(here::here("figs", "scatterplot-scheme1.png"))
 ```
 ]
 
@@ -529,22 +529,33 @@ knitr::include_graphics(here::here("figs", "nagoya-protocol.png"))
 
 --
 
-.center[
-.pull-right[
-
+.pull-left[
 ```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "mcz_thayer_expedition_fish.png"))
+```
+]
+
+---
+
+# Ética e legalidade
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="60%"}
 knitr::include_graphics(here::here("figs", "omar-fernandez.png"))
 ```
 
-```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+]
+
+--
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="50%"}
 knitr::include_graphics(here::here("figs", "decreto-1990.png"))
 ```
 
-```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
 knitr::include_graphics(here::here("figs", "flow-2.png"))
 ```
-
-]
 
 ]
 
@@ -595,10 +606,6 @@ knitr::include_graphics(here::here("figs", "diniz-filhoetal-frontiers.png"))
 ```{r, echo=FALSE,eval=TRUE, out.width="100%"}
 knitr::include_graphics(here::here("figs", "diniz-filho-fig1.png"))
 ```
-
-- Incerteza taxonômica afetando **padrões macroecologicos**
-
-- Relação entre **idade e incerteza taxonômica**
 
 ]
 
