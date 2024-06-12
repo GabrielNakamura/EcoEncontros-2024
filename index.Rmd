@@ -522,16 +522,22 @@ class: inverse, middle, center
 # Ética e legalidade
 
 .pull-left[
-```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+
+### Protocolo de Nagoya
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
 knitr::include_graphics(here::here("figs", "nagoya-protocol.png"))
 ```
 ]
 
 --
 
-.pull-left[
-```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+.pull-right[
+
+### Expedição Thayer
+```{r, echo=FALSE, eval=TRUE, out.width="60%"}
 knitr::include_graphics(here::here("figs", "mcz_thayer_expedition_fish.png"))
+knitr::include_graphics(here::here("figs", "thayer1.jpg"))
+
 ```
 ]
 
@@ -675,31 +681,27 @@ knitr::include_graphics(here::here("figs", "ubirajara-expo-cariri.jpeg"))
 ---
 class: inverse, middle, center
 
-# Acumulo do conhecimento
+# Acúmulo do conhecimento
 
 --
 
-# = Processo científico
-
-
----
-class: inverse, middle, center
-
-# Acumulo do conhecimento **e** processo científico
-
-```{r, echo=FALSE, eval=TRUE}
-knitr::include_graphics(here::here("figs", "final-scheme1.png"))
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "british-museum-contested.png"))
 ```
+]
 
----
-class: inverse, middle, center
+--
 
-# Acumulo do conhecimento **e** processo científico
-
-```{r, echo=FALSE, eval=TRUE}
-knitr::include_graphics(here::here("figs", "final-scheme2.png"))
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "peixes-brasil.png"))
 ```
+]
 
+
+???
+Muito similar a qualquer processo de acúmulo material 
 ---
 
 class: inverse, middle, center
