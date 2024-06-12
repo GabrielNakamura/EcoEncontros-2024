@@ -282,12 +282,6 @@ class: inverse, middle, center
 knitr::include_graphics(here::here("figs", "catalog-pic.png"))
 ```
 
---
-
-```{r, echo=FALSE, eval=TRUE, out.width="200%"}
-knitr::include_graphics(here::here("figs", "catalog-search.png"))
-```
-
 ---
 
 # A distribuição de tipos primários de peixes no mundo
@@ -313,6 +307,23 @@ knitr::include_graphics(here::here("figs", "method-data.png"))
 
 .pull-right[
 - Registro do **local de amostragem** do **tipo primário** (holótipo, lectótipo, neótipo e síntipos)
+
+]
+
+---
+
+# A distribuição de tipos primários de peixes no mundo
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%"}
+knitr::include_graphics(here::here("figs", "method-data2.png"))
+```
+]
+
+.pull-right[
+- Registro do **local de amostragem** do **tipo primário** (holótipo, lectótipo, neótipo e síntipos)
+
+- Registro do **museu** que abriga o **tipo primário**
 
 ]
 
@@ -363,8 +374,6 @@ knitr::include_graphics(here::here("figs", "WB-regions.png"))
 ```
 ]
 
---
-
 ```{r, echo=FALSE, eval=TRUE, out.width="100%"}
 knitr::include_graphics(here::here("figs", "flow-2.png"))
 ```
@@ -380,9 +389,9 @@ knitr::include_graphics(here::here("figs", "scheme-DC.png"))
 ]
 
 .pull-right[
-- Regiões com maior **concentração total** de tipos primários (O acumulador)
 
 - Regiões com alta **taxa de contribuição local** de tipos primários (O recebedor)
+
 ]
 
 ---
@@ -397,7 +406,6 @@ knitr::include_graphics(here::here("figs", "scheme-DR.png"))
 ]
 
 .pull-right[
-- Regiões com maior **concentração total** de tipos primários (O acumulador)
 
 - Regiões com alta/baixa **taxa de contribuição local** de tipos primários (O recebedor)
 
